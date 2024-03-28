@@ -2,21 +2,21 @@ import tkinter as tk
 
 window = tk.Tk()
 
-# text_box = tk.Text()
-# text_box.pack()
+text_box = tk.Text()
+text_box.pack()
 
-# text_box.insert("1.0", "Hello")
-# text_box.insert("2.0", "\nWorld")
-# text_box.insert(tk.END, "\nPut me at the end!")
+text_box.insert("1.0", "Hello")
+text_box.insert("2.0", "\nWorld")
+text_box.insert(tk.END, "\nPut me at the end!")
 
-# # Not inclusive in these ranges
-# text = text_box.get("1.0")
-# text = text_box.get("1.0", tk.END)
+# Not inclusive in these ranges
+text = text_box.get("1.0")
+text = text_box.get("1.0", tk.END)
 
-# text_box.delete("1.0", "2.0")
-# text_box.delete("1.0", tk.END)
+text_box.delete("1.0", "2.0")
+text_box.delete("1.0", tk.END)
 
-# print(text)
+print(text)
 
 frm_a = tk.Frame(
     master = window,
